@@ -14,6 +14,7 @@ use TCG\Voyager\Actions\DeleteAction;
 use TCG\Voyager\Actions\EditAction;
 use TCG\Voyager\Actions\RestoreAction;
 use TCG\Voyager\Actions\ViewAction;
+use TCG\Voyager\Actions\EspecialAction;
 use TCG\Voyager\Events\AlertsCollection;
 use TCG\Voyager\FormFields\After\HandlerInterface as AfterHandlerInterface;
 use TCG\Voyager\FormFields\HandlerInterface;
@@ -49,6 +50,7 @@ class Voyager
         RestoreAction::class,
         EditAction::class,
         ViewAction::class,
+        EspecialAction::class,
     ];
 
     protected $models = [
