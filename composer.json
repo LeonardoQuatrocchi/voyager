@@ -51,6 +51,9 @@
                 "TCG\\Voyager\\VoyagerServiceProvider",
                 "TCG\\Voyager\\Providers\\VoyagerDummyServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "1.6-dev"
         }
     }
 }
